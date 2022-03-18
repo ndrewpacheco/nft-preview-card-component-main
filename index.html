@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="main-info">
+        <div class="card-img">
+          <img src="./images/image-equilibrium.jpg" alt="image-equilibrium" />
+          <div class="overlay"></div>
+        </div>
+
+        <h1>Equilibrium #2345</h1>
+        <p class="desc">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+      </div>
+      <div class="rate-info">
+        <p id="coin-rate">
+          <object type="image/svg+xml" data="images/icon-ethereum.svg">
+            icon-ethereum
+          </object>
+          0.041 ETH
+        </p>
+        <p id="days-left">
+          <object type="image/svg+xml" data="images/icon-clock.svg">
+            icon-clock
+          </object>
+          3 Days Left
+        </p>
+      </div>
+      <div class="horizontal-rule"></div>
+      <footer>
+        <img id="avatar-img" src="images/image-avatar.png" alt="avatar-img" />
+        <p>Creation of <span id="avatar-name">Jules W</span></p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(215, 51%, 70%);
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  height: 100vh;
+  display: flex;
+  /* border: 1px solid green; */
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: hsl(216, 50%, 16%);
+
+  box-shadow: 0px 10px 10px 2px hsl(217, 40%, 8%);
+
+  max-width: 350px;
+  /* max-height: 600px; */
+
+  border-radius: 10px;
+  padding: 25px;
+}
+
+.card h1,
+.rate-info {
+  margin: 25px 0;
+}
+
+.card-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-img {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 10px;
+  background-color: hsl(178, 100%, 50%);
+  opacity: 0;
+}
+
+.overlay:hover {
+  cursor: pointer;
+  opacity: 0.4;
+}
+
+.card h1 {
+  color: white;
+  font-size: 1.4em;
+}
+
+.desc {
+  line-height: 1.4em;
+}
+
+.rate-info {
+  display: flex;
+}
+object {
+  margin-right: 4px;
+}
+#coin-rate {
+  display: flex;
+  flex-wrap: wrap;
+
+  color: hsl(178, 100%, 50%);
+  text-transform: uppercase;
+  margin-right: auto;
+}
+
+#days-left {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.horizontal-rule {
+  background-color: hsl(215, 15%, 55%);
+  height: 0.1px;
+}
+footer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#avatar-img {
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+
+#avatar-name {
+  color: white;
+}
+
+.card h1:hover,
+#avatar-name:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
