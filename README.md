@@ -11,7 +11,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github]https://github.com/ndrewpacheco/nft-preview-card-component-main)
+- Solution URL: [Github](https://github.com/ndrewpacheco/nft-preview-card-component-main)
 - Live Site URL: [Live](https://ndrewpacheco.github.io/nft-preview-card-component-main/)
 
 ### Built with
